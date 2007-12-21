@@ -11,6 +11,7 @@ Source0: %{name}-%{version}.tar.bz2
 License: GPL
 Group: Games/Cards
 URL: http://www.oberhumer.com/opensource/pysol/	
+BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildArch: noarch
 Requires: pysol >= %pysolver
 
