@@ -1,6 +1,6 @@
 %define name pysol-cardsets
 %define version 4.40
-%define release %mkrel 9
+%define release %mkrel 10
 %define pysolver 4.81-3mdk
 
 Summary: A collection of free cardsets adapted for use with PySol
