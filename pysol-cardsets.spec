@@ -38,3 +38,40 @@ rm -rf $RPM_BUILD_ROOT
 %doc README NEWS
 %_gamesdatadir/pysol/*
 
+
+
+%changelog
+* Thu Aug 04 2011 GÃ¶tz Waschk <waschk@mandriva.org> 4.40-11mdv2012.0
++ Revision: 693152
+- rebuild
+
+* Fri Aug 01 2008 Thierry Vignaud <tv@mandriva.org> 4.40-10mdv2011.0
++ Revision: 259473
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 4.40-9mdv2009.0
++ Revision: 247328
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <blino@mandriva.org> 4.40-7mdv2008.1
++ Revision: 136447
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Tue Jun 06 2006 GÃ¶tz Waschk <waschk@mandriva.org> 4.40-7mdk
+- Rebuild
+- use mkrel
+
+* Fri Jun 03 2005 Götz Waschk <waschk@mandriva.org> 4.40-6mdk
+- drop prefix
+- remove the cardsets already in the main package
+
+* Fri Aug 13 2004 Götz Waschk <waschk@linux-mandrake.com> 4.40-5mdk
+- rebuild
+
+* Mon Jul 07 2003 Götz Waschk <waschk@linux-mandrake.com> 4.40-4mdk
+- move files around (fixes bug 4153)
+
